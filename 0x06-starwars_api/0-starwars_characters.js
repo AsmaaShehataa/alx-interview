@@ -1,6 +1,6 @@
 #!/usr/bin/node
-const my_util = require('util');
-const m_request = my_util.promisify(require('request'));
+const util = require('util');
+const request = my_util.promisify(require('request'));
 const filmID = process.argv[2];
 
 async function starwarsCharacters (filmId) {
