@@ -6,7 +6,7 @@ Island Perimeter calc
 
 def island_perimeter(grid):
     """
-     returns the perimeter of the island described in grid
+    returns the perimeter of the island described in grid
     """
     area = 0
     for row in grid + list(map(list, zip(*grid))):
